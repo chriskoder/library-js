@@ -1,0 +1,69 @@
+.container {
+    text-align: center;
+    display: grid;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5em;
+}
+.first-line {
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.first-line > div {
+    border: 1px solid black;
+}
+div:nth-child(5) {
+    border: none;
+}
+input {
+    font-size: 0.8em;
+    width: 150px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+button {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    width: 70px auto;
+    font-size: 1em;
+}
+.books {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+}
+.modify {
+    border: none;
+}
+.title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 1.5em;
+}
+.title-text {
+    font-size: 1.5em;
+    text-align: left;
+}
+.book {
+    padding-top: 0.2em;
+    padding-right: 0.4em;
+    text-align: right;
+}
+.books {
+    font-size: 0.85em;
+}
+.add-book {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.input-read {
+    width: 23px;
+    height: 23px;
+}
+div[class*="remove-button"] {
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+}
