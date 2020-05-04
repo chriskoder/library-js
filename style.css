@@ -57,6 +57,7 @@ button {
     padding-bottom: 2em;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2em;
 }
 .input-read {
     width: 23px;
