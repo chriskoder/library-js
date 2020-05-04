@@ -62,8 +62,19 @@ button {
     width: 23px;
     height: 23px;
 }
-div[class*="remove-button"] {
-    color: rgb(0, 0, 0);
-    border: none;
+.btn-add {
+    background: lightgray;
+}
+button[class*="remove-button"] {
+    background: rgb(156, 156, 156);
     outline: none;
+    border: none;
+}
+div[class*="book-"] {
+    padding-top: 0.5em;
+}
+.add-book {
+    border: 1px solid black;
+    height: 10%;
+    background: rgb(185, 204, 204);
 }
